@@ -1,0 +1,27 @@
+{
+  "name": "SnakeWebapp",
+  "version": "0.1.0",
+  "description": "A webapp implementation of the classic game of snake.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter nyan"
+  },
+  "keywords": [
+    "snake"
+  ],
+  "author": "Scott Bouloutian",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "1.20.1",
+    "chai": "1.9.1",
+    "companion": "0.0.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.3.3",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-simple-mocha": "0.4.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
