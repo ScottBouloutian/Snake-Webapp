@@ -5,13 +5,12 @@ module.exports = function(grunt) {
       options: {
         reporter: 'nyan'
       },
-
       all: {
         src: 'test/*.spec.js'
       }
     },
     watch: {
-      files: ['src/snake.js'],
+      files: ['src/*', 'test/*'],
       tasks: ['simplemocha']
     }
   });
